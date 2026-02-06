@@ -1,0 +1,222 @@
+<!doctype html><html lang="en-us">
+  <head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>路易斯掌聲</title>
+<meta name="title" content="路易斯掌聲" />
+
+
+
+  <meta name="author" content="Louis" />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<link type="text/css" rel="stylesheet" href="/css/main.bundle.min.cc0b61f69603295147b93f763de88d761c2bb13ea1aa5b8cc2c38b0283270916.css" integrity="sha256-zAth9pYDKVFHuT92PeiNdhwrsT6hqluMwsOLAoMnCRY=" />
+
+
+
+
+
+
+
+
+
+<script defer src="/js/main.bundle.min.5a00293bacd8510f50add105212cea76d541a955f6693035ef3128b638a21619.js" integrity="sha256-WgApO6zYUQ9QrdEFISzqdtVBqVX2aTA17zEotjiiFhk="></script>
+
+
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+
+
+
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/icon_hu_467c58d2a6ee7dc1.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icon_hu_bfe256de2e5cc3e9.png" />
+
+
+
+<meta property="og:url" content="https://lu1sclap.github.io/blog/chat5/">
+  <meta property="og:site_name" content="路易斯掌聲">
+  <meta property="og:title" content="開發看邏輯，維運看邊界">
+  <meta property="og:description" content="在職場這兩年多的時間，我的心境經歷了一場意想不到的轉變，第一年的工作重心是放在系統開發上面，主要就是對著專案需求書開發，只要程式跑得過、邏輯沒寫錯，基本上就算大功告成;第二年，公司讓我負責當台電修護系統維運案的窗口，當窗口不外乎就是會與使用者接觸，釐清他們遇到的問題並給予解決方案，工作內容相較於我第一年開發系統，顯的更有挑戰。">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-01-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-31T00:00:00+00:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="開發看邏輯，維運看邊界">
+  <meta name="twitter:description" content="在職場這兩年多的時間，我的心境經歷了一場意想不到的轉變，第一年的工作重心是放在系統開發上面，主要就是對著專案需求書開發，只要程式跑得過、邏輯沒寫錯，基本上就算大功告成;第二年，公司讓我負責當台電修護系統維運案的窗口，當窗口不外乎就是會與使用者接觸，釐清他們遇到的問題並給予解決方案，工作內容相較於我第一年開發系統，顯的更有挑戰。">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<section class="mx-auto flex max-w-(--breakpoint-xl) items-center justify-between p-4">
+  <a href="https://lu1sclap.github.io/" class="flex items-center space-x-3">
+    
+      
+      <img src="/logo_hu_9e2a86ae32619b4d.webp" class="h-8 w-8" alt="Logo" />
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+      路易斯掌聲
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          Home
+        </a>
+      
+        <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          Blog
+        </a>
+      
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          About
+        </a>
+      
+    </nav>
+    <button id="theme-toggle" type="button" class="rounded-lg text-sm text-slate-700 hover:text-indigo-500 dark:text-slate-400" aria-label="theme-switcher">
+      <svg id="theme-toggle-dark-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+      </svg>
+      <svg id="theme-toggle-light-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden" aria-label="hamburger-button">
+      <div
+        class="absolute top-4 -mt-0.5 h-[3px] w-8 rounded-sm bg-slate-700 transition-all duration-500 before:absolute before:h-[3px] before:w-8 before:-translate-x-4 before:-translate-y-2.5 before:rounded-sm before:bg-slate-700 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-[3px] after:w-8 after:-translate-x-4 after:translate-y-2.5 after:rounded-sm after:bg-slate-700 after:transition-all after:duration-500 after:content-[''] dark:bg-slate-400 dark:before:bg-slate-400 dark:after:bg-slate-400"></div>
+    </button>
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        Home
+      </a>
+    
+      <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        Blog
+      </a>
+    
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        About
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-(--breakpoint-md) px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        開發看邏輯，維運看邊界
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Jan 31, 2026 - 1 minute read
+      </div>
+
+      
+
+      
+
+
+      <span class="prose prose-slate break-normal text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] dark:text-slate-200 md:prose-pre:max-w-(--breakpoint-md) prose-code:before:hidden prose-code:after:hidden">
+        <p>在職場這兩年多的時間，我的心境經歷了一場意想不到的轉變，第一年的工作重心是放在<strong>系統開發</strong>上面，主要就是對著專案需求書開發，只要程式跑得過、邏輯沒寫錯，基本上就算大功告成;第二年，公司讓我負責當台電修護系統維運案的窗口，當窗口不外乎就是會<strong>與使用者接觸，釐清他們遇到的問題並給予解決方案</strong>，工作內容相較於我第一年開發系統，顯的更有挑戰。</p>
+<h3 id="當使用者成為變數">當使用者成為變數</h3>
+<hr>
+<p>在我剛開始接觸維運工作時，心裡莫名熱血，一開始心裡想的是，我能解決的問題就想趕緊解決，解決完就不要來煩我了，我也烙得輕鬆，同時也心想主管應該也會覺得我能力不錯，雖然心裡劇本是這樣子寫，但真實發生的情況總是會與心理想的有些不一樣。</p>
+<p>我開始意識到，<strong>有的問題不是單純程式錯誤修正程式那麼簡單而已</strong>，舉例來說，有的問題是舊系統原有的老問題所產生的異常資料，又或者是使用者對於操作介面不熟而加入的主觀優化建議，又或是使用者對於自身業務流程不熟悉而操作錯誤，說到這邊，業務流程不熟悉也太誇張，你不要覺得不可能，我一開始也覺得不可能，所以在初期只要一發生問題，我下意識的就是去釐清看程式有沒有寫錯，並與使用者確認一下業務邏輯與流程，到最後就有發現蠻多次是使用者操作的流程與手冊上的業務流程有出入的狀況。</p>
+<p>我還記得某次我就是遇到了這樣子的狀況，即便跟使用者解釋說是他操作錯誤所以資料才會錯，但使用者只會下意識的把問題都推給系統，以我明明每個月的操作步驟都一樣，為什麼這個月有問題的說法，逼廠商查問題，這時就能夠顯現操作紀錄、資料的新增、修改時間之類的log有奪麼重要了！。</p>
+<h3 id="熱血的代價我如何差點把維運做成了慈善事業">熱血的代價：我如何差點把維運做成了「慈善事業」？</h3>
+<hr>
+<p>雖然我有記錄處理過哪些問題的習慣，如果下次使用者再問類似的問題時，我可以快速找出解決方法，但我忽略了一件事情，那就是將<strong>問題分類</strong>，哪些是需求變更、哪些新增需求、哪些又是
+程式修改與資料修改，前兩者就很明顯的需要規劃成新的增修案需求，這部分客戶是需要付費的，對於公司來說也是未來獲利的一個管道，再者也有機會去促成其他案子合作的可能，後兩者就比較偏向在保固期間內，免費幫客戶做修正的問題，而我當時卻一心只想把問題處理起來，竟然忽略了那麼重要的一點，這段期間也是免費幫客戶改了好多需求變更的問題，無形中也養成客戶無限凹需求的壞習慣，這對於我個人與公司來說都不是件好事。</p>
+<h3 id="這段經驗讓我學到了">這段經驗讓我學到了</h3>
+<hr>
+<p>回頭看這段過程，雖然曾被各種怪奇問題折磨得心累，甚至脾氣還被搞得很不好，但不得不說這段經驗還是有可以讓我學習的地方，像是分析問題的邏輯與分類需求的精準度，才是維運案中真正的專業所在，也算是我這段時間最無價的收穫吧！</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    
+      © 路易斯掌聲 All rights reserved.
+    
+  </p>
+
+  
+</div>
+
+    </footer>
+  </body>
+</html>

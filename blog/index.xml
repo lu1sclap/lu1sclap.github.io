@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© 路易斯掌聲 All rights reserved.</copyright>
-    <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lu1sclap.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>開發看邏輯，維運看邊界</title>
+      <link>https://lu1sclap.github.io/blog/chat5/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://lu1sclap.github.io/blog/chat5/</guid>
+      <description>在職場這兩年多的時間，我的心境經歷了一場意想不到的轉變，第一年的工作重心是放在&lt;strong&gt;系統開發&lt;/strong&gt;上面，主要就是對著專案需求書開發，只要程式跑得過、邏輯沒寫錯，基本上就算大功告成;第二年，公司讓我負責當台電修護系統維運案的窗口，當窗口不外乎就是會&lt;strong&gt;與使用者接觸，釐清他們遇到的問題並給予解決方案&lt;/strong&gt;，工作內容相較於我第一年開發系統，顯的更有挑戰。</description>
+    </item>
     <item>
       <title>從《瘋狂獨角獸》看職場：每個人都應該培養執行長思維</title>
       <link>https://lu1sclap.github.io/blog/chat4/</link>
