@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lu1sclap.github.io/blog/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+    <loc>https://lu1sclap.github.io/blog/chat13/</loc>
+    <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lu1sclap.github.io/blog/chat12/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+    <loc>https://lu1sclap.github.io/blog/</loc>
+    <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lu1sclap.github.io/</loc>
+    <lastmod>2026-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lu1sclap.github.io/blog/chat12/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lu1sclap.github.io/blog/chat11/</loc>
