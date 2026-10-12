@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© 路易斯掌聲 All rights reserved.</copyright>
-    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lu1sclap.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>偏往釜山行 EP.2</title>
+      <link>https://lu1sclap.github.io/blog/busan2/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://lu1sclap.github.io/blog/busan2/</guid>
+      <description>一早我利用等 Judy 化妝的空檔的時間，把昨日打包的披薩拿去微波當早餐吃，即便是剛微波好，還是很好吃，但可惜 Judy 無法享用這何等美味，因為她不吃 xD。今天主要的行程是去海雲台搭膠囊列車，我們是訂 8:30的時段搭乘，一早 7:30 就出門去搭地鐵了，早上南浦洞這邊的店家營業時間都沒有很早，車站也沒有什麼人，不知道是不是因為韓國人都比較晚上班 ?</description>
+    </item>
     <item>
       <title>偏往釜山行 EP.1</title>
       <link>https://lu1sclap.github.io/blog/busan1/</link>
@@ -294,7 +301,7 @@
       <link>https://lu1sclap.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lu1sclap.github.io/about/</guid>
-      <description>&lt;p&gt;哈囉，我是路易斯，一名早 9 晚 6 的軟體業打工人&lt;/p&gt;&#xA;&lt;p&gt;我喜歡亂想事情，在這個資訊爆炸的時代，一不小心，想法就會溜走&lt;/p&gt;&#xA;&lt;p&gt;我想記錄生活、想法，還有那些一閃而過的靈感 —— &lt;strong&gt;路易斯&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;而 —— &lt;strong&gt;掌聲&lt;/strong&gt; &amp;#x1f44f; 不只是台下的噪音，它是當一個靈魂與另一個靈魂產生共鳴時，最直覺的震動&lt;/p&gt;</description>
+      <description>&lt;p&gt;哈囉，我是路易斯，一名早 9 晚 6 的軟體業打工人 —— &lt;strong&gt;路易斯&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;我喜歡亂想事情，在這個資訊爆炸的時代，一不小心，想法就會溜走&lt;/p&gt;&#xA;&lt;p&gt;我想記錄生活、想法，還有那些一閃而過的靈感&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;掌聲&lt;/strong&gt; &amp;#x1f44f; 是當一個靈魂與另一個靈魂產生共鳴時，最直覺的震動&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
